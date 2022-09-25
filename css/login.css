@@ -1,0 +1,33 @@
+.login-form{
+    margin: 25% 0;
+}
+
+
+.login-form__input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid var(--main-text-color);
+    background: none;
+    font-size: 50px;
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+*:focus{
+    outline: none;
+}
+
+.login-form__submit{
+    width: 150px;
+    height: 60px;
+    border: 1px solid var(--main-text-color);
+    border-radius: 20px;
+    background: var(--main-text-color);
+    font-size: 35px;
+    color: var(--background-color);
+}

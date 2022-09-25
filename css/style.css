@@ -1,3 +1,13 @@
-.hidden{
-    display: none;
-}
+/* font */
+
+/* default */
+@import "./variables.css";
+
+/* main */
+@import "./main.css";
+
+/* components */
+@import "./login.css";
+@import "./greeting.css";
+@import "./container__first.css";
+@import "./container__second.css";

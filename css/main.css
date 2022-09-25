@@ -1,0 +1,21 @@
+.hidden{
+    display: none;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100vh;
+    background: #e3dbc4;
+    border: 1px solid var(--main-text-color);
+    margin: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
