@@ -23,7 +23,7 @@ function paintGreetings(username){
     // firstdiv.classList.remove(HIDDEN_CLASSNAME);
     // secdiv.classList.remove(HIDDEN_CLASSNAME);
 
-    greeting.innerText = `Hello! ${username} !`;
+    greeting.innerText = `Hello! ${username} :)`;
 
 }
 

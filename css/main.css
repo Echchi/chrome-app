@@ -5,9 +5,9 @@ html{
     height: 100%;
 }
 body{
-    height: 100vh;
+    height:auto;
     background: #e3dbc4;
-    border: 1px solid var(--main-text-color);
+    border: 5px solid var(--main-text-color);
     margin: 50px;
     box-sizing: border-box;
     text-align: center;

@@ -1,4 +1,60 @@
+.container__seconds{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quote span{
+    font-size: 25px;
+    color : var(--main-text-color);
+    display: inline-block;
+}
+
+.quote span:last-child{
+    font-size: 15px;
+}
+
+
 .container__seconds__column2 img{
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.container__seconds__column1, .container__seconds__column2{
+    border : 8px solid var(--main-text-color);
+    width: 505px;
+    margin : 25px;
+    text-align : center;
+}
+
+
+*:focus{
+    outline: none;
+}
+
+.todo-form input {
+    margin: 10px;
+    border : none;
+    width: 400px;
+    text-align : center;
+    border-bottom: 2px solid var(--main-text-color);
+    background : none;
+    font-size: 25px;
+    color : var(--main-text-color);
+}
+
+.todo-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.todo-list li{
+    list-style: none;
+    font-size: 25px;
+    color: var(--gray-text);
+}
+
+.todo-list button{
+    border: 1px solid var(--main-text-color);
+    border-radius: 50%;
+    background : none;
+    cursor: pointer;
 }

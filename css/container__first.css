@@ -8,6 +8,23 @@
 
 .clock{
     color: var(--background-color);
-    font-size : 35px;
+    font-size : 40px;
     padding: 0;
+}
+
+.weather{
+    color: var(--background-color);
+    padding: 0;
+}
+
+.weather div:first-child{
+    font-size: 20px;
+}
+
+.weather div:nth-child(2){
+    font-size: 30px;
+}
+
+.weather div:last-child{
+    font-size: 40px;
 }
