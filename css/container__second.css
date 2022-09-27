@@ -1,29 +1,25 @@
 .container__seconds{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.quote span{
+.container__seconds__column2 h3{
     font-size: 25px;
     color : var(--main-text-color);
-    display: inline-block;
+    margin: 5px;
 }
-
-.quote span:last-child{
-    font-size: 15px;
-}
-
 
 .container__seconds__column2 img{
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .container__seconds__column1, .container__seconds__column2{
     border : 8px solid var(--main-text-color);
-    width: 505px;
+    width: 550px;
     margin : 25px;
     text-align : center;
+    margin: 10px 0px;
 }
 
 
